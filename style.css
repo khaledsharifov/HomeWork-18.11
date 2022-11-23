@@ -1,0 +1,340 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: #1b1b1b;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+
+.center{
+    width: 70%;
+    margin: auto;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: white;
+}
+.navbar .nav-left h1{
+    color: rgb(0, 183, 255);
+    font-family: 'Open Sans';
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.nav-right ul li{
+    list-style-type: none;
+}
+.nav-right ul a{
+    font-family: 'Open Sans';
+   text-decoration: none;
+   padding: 10px 15px;
+   border-radius: 8px;
+   color: black;
+   font-size: 18px;
+}
+.nav-right ul a:hover{
+background-color: #085f69;
+color: white;
+ }
+#home{
+    color: #006fcf;
+
+}
+#home:hover{
+    background-color: #ad4e05;
+    color: rgb(255, 255, 255);
+}
+
+.page{
+    background-image: url(/images/IMAGE.png);
+    height: 62vh;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Velocity{
+    text-align: center;
+}
+.Velocity h1{
+    font-size: 59px;
+    font-weight: 60px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 60px;
+    color: white;
+    font-family: 'Open Sans';  
+}
+.Velocity button{
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #69B9FF;
+    border-radius: 4px;
+    margin: 40px 20px;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    font-family: 'Open Sans';
+}
+.Velocity button:hover{
+    background: rgb(35, 83, 122);
+}
+.Velocity .butt{
+    border: 1px solid white;
+    background: none;
+}
+.Velocity .butt:hover{
+    background: #1b1b1b;
+    border: n;
+}
+.what{
+    margin: 0px 60px 60px 60px;
+}
+.what h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+line-height: 36px;
+text-align: center;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #676770;
+padding:30px 0px 20px 0px;
+font-family: 'Open Sans';
+}
+.what p{
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #8E8E9C;
+font-family: 'Open Sans';
+}
+.grafik{
+    width: 30%;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 30px 5px;
+}
+.grafik h1{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 7px;
+text-transform: uppercase;
+margin: 10px 0px;
+color: #676770;
+}
+.grafik p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+
+color: #6A859C;
+}
+.grafik .top{
+    text-align: center;
+}
+.bett{
+display: flex;
+text-align:center;
+}
+
+
+.grafik .top img{
+    border: 1px solid rgb(203, 203, 203);
+}
+.grafiks{
+    display: flex;
+    justify-content: space-between;
+}
+.page3{
+    background-color: #1b1b1b;
+}
+.page3 .what h1{
+    color: white;
+}
+.page3 .what p{
+    color: white;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+.services .grafik{
+    width: 50%;
+}
+.services .grafik h1{
+    font-family: 'Open Sans';
+    color: white;
+}
+.services .grafik p{
+    font-family: 'Open Sans';
+    color: white;
+    padding:0px 60px 15px 60px;
+}
+.services .grafik{
+    border: none;
+}
+.services .grafik img{
+    border: none;
+    text-align: justify ;}
+.page3{
+    background-color: rgb(41, 41, 41);
+    padding: 30px 0px;
+}
+.page2{
+    background: white;
+    padding: 4% 0%;
+}
+.page4{
+    padding: 30px 0px;
+    background: white;
+}
+.services img{
+    width: 90%;
+}
+.services button{
+    font-family: 'Open Sans';
+    display: flex;
+    margin: auto;
+    padding: 10px 30px;
+    background:none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.services button:hover{
+    background-color: #c6c6c6;
+    color: black;
+}
+.page4 .centerr{
+    text-align: center;
+    padding:40px;
+}
+.page4 .centerr button{
+    font-family: 'Open Sans';
+    padding: 1px 20px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+background-color: #929292;
+color: #FFFFFF;
+margin: 0px 5px 0px 5px;
+border: none;
+border-radius: 5px;
+
+}
+.page4 .centerr button:hover{
+    background-color: #676770;
+}
+#tab1{
+    background-color: #1291ff;
+}
+.page4 img{
+    width: 100%;
+}
+.page4 h2{
+    font-family: 'Open Sans';
+    font-style: normal;
+font-weight: 400;
+font-size: 31px;
+line-height: 36px;
+text-align: center;
+
+color: #676770;
+}
+.page4 p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    
+    color: #6A859C;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer123{
+    width: 30%;
+    margin: 100px 0px;
+}
+.footer h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+letter-spacing: 4px;
+text-transform: uppercase;
+text-align: start;
+color: #676770;
+padding: 20px;
+}
+
+#start{
+    cursor: pointer;
+    text-align: justify;
+}
+#startt{
+    text-align: justify;
+}
+.footer123 hr{
+    margin: 5px 0px;
+}
+
+.footer123 img{
+    width: 5%;
+}
+
+.footerend{
+    height: 10vh;
+    background-color: #4c4c50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerend p{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: rgb(207, 207, 207);
+}
+#start:hover{
+    color: #0088ff;
+}
